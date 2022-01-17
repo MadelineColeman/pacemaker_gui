@@ -1,0 +1,31 @@
+﻿Parameter,Not Pattern,Lower Limit,Upper Limit,Increment
+Lower Rate Limit,,30,50,5
+Lower Rate Limit,,50,90,1
+Lower Rate Limit,,90,175,5
+Upper Rate Limit,,50,175,5
+Maximum Sensor Rate,,50,175,5
+Fixed AV Delay,,70,300,10
+Dynamic AV Delay,On,,,
+Dynamic AV Delay,Off,,,
+Sensed AV Delay Offset,Off,-10,-100,-10
+Atrial Amplitude,Off,0.1,5,0.1
+Ventricular Amplitude,Off,0.1,5,0.1
+Atrial Pulse Width,,1,30,1
+Ventrical Pulse Width,,1,30,1
+Atrial Sensitivity,,0.25,0.75,0.25
+Venticular Sensitivity,,0.25,0.75,0.25
+Atrial Sensitivity,,1,5,0.1
+Ventricular Sensitivity,,1,5,0.1
+VRP,,150,500,10
+ARP,,150,500,10
+PVARP,,150,500,10
+Hysteresis,,30,50,5
+Hysteresis,,50,90,1
+Hysteresis,,90,175,5
+Hysteresis,Off,,,
+Rate Smoothing,25,0,21,3
+ATR Fallback Time,,1,5,1
+Activity Threshold,,1,6,1
+Reaction Time,,2,16,1
+Response Factor,,1,16,1
+Recovery Time,,2,16,1
